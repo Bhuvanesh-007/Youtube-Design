@@ -1,0 +1,213 @@
+
+
+#header{
+    position: fixed;
+    height: 65px;
+    background-color: white;
+    left: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    padding-right: 40px;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+/* left-bar */
+
+.left-bar{
+    display: flex;
+    align-items: center; 
+    height: 60px;
+}
+.menu-icon{
+    width: 16px;
+    height: 20px;
+    margin-bottom: 8px;
+}
+.menu{
+
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+    margin-left: -15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer; 
+}
+.menu:hover{
+    background-color: rgb(232, 232, 232);
+}
+
+.youtube-logo-title img{
+    width: 100%;
+}
+.youtube-logo-title{
+    width: 100px;
+    margin-left: 5px;
+    padding-top: 2px;
+    position: relative;
+    cursor: pointer;
+}
+.youtube-logo-title span{
+    position: absolute;
+    font-size: 9px;
+}
+
+/* center-bar */
+
+.center-bar {
+    display: flex;
+    align-items: center;
+    flex: 0 1 600px;
+    margin-left: 75px;
+    margin-right: 50px;
+    max-width: 620px;
+}
+.center-bar form {
+    position: relative;
+    width: 100%;
+}
+.mic img{
+    width: 100%;
+}
+.mic{
+    width: 22px;
+}
+.center-bar input {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgba(64, 61, 61, 0.202);
+    border-right: none;
+    padding: 12px;
+    color: black;
+    font-size: 1rem;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    outline: none;
+}
+
+.center-bar .search {
+    min-width: 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    outline: none;
+    border: 1px solid rgba(64, 61, 61, 0.202);;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+    position: relative;
+}
+
+.search .tooltip,.video-create-icon .tooltip,.mic .tooltip,.notification-icon .tooltip{
+    position: absolute;
+    bottom: -50px;
+    background-color: rgba(56, 56, 56, 0.7) ;
+    color: white;
+    padding: 8px 6px;
+    font-size: 12px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.20s;
+    pointer-events: none;
+    z-index: 1200;
+}
+.mic .tooltip{
+    bottom: -35px;
+}
+.video-create-icon .tooltip{
+    bottom: -35px;
+}
+.notification-set .tooltip{
+    bottom: -48px;
+}
+.search:hover .tooltip,.mic:hover .tooltip,.video-create-icon:hover .tooltip,.notification-set:hover .tooltip{
+    opacity: 1;
+}
+.center-bar .search:hover{
+    background-color: rgb(231, 230, 230);
+    box-shadow:0.5px 0.5px rgb(174, 171, 171);
+}
+.center-bar .mic {
+    height: 40px;
+    min-width: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.center-bar .mic:hover{
+    background-color: rgb(209, 207, 207);
+}
+
+.video-create-icon img,.notification-icon img{
+    width:100%;
+    
+}
+.video-create-icon,.notification-icon{
+    width:38px;
+}
+.notification-set{
+    position: relative;
+    cursor: pointer;
+}
+.notification-set p{
+    position: absolute;
+    top: 5px;
+    right: -4px;
+    background-color: rgb(217, 67, 67);
+    color: white;
+    font-size: 13px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 8px;
+}
+.video-create-icon,.notification-icon{
+    padding: 7px;
+    min-width: 25px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+}
+.video-create-icon:hover,.notification-icon:hover,.notification-set:hover .notification-icon{
+    background-color: rgb(233, 230, 230);
+}
+.right-bar{
+    display: flex;
+    align-items: center;
+
+}
+.profile{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(143, 188, 75);
+    border: none;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: -5px;
+    cursor: pointer;
+}
+.profile:hover{
+    background-color: rgb(116, 179, 116);
+}
+

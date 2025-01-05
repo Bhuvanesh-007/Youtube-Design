@@ -1,0 +1,233 @@
+@media (width<638px){
+    .sidebars{
+        display: none;
+        width: 0px;
+        }
+    .main{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .Container{ 
+        display: flex;
+        justify-content: center;
+    }
+    .main-videos{
+        grid-template-columns: 1fr;
+        padding-left: 20px;
+        padding-right: 25px;
+        
+    }
+    .video{
+        max-width: 460px;
+    }
+    .main{
+        padding-left: 0px;
+        padding-right: 0px;
+        justify-content: center;
+    }
+    .center-bar input{
+        display: none;
+    }
+    .center-bar .search{
+        border: none;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        height: 40px;
+        min-width: 40px;
+        padding: 5px;
+        border-radius: 50%;
+        margin-left: 10px;
+        cursor: pointer;
+        box-shadow: none;
+        background-color: white;
+    }
+    .center-bar .search:hover{
+        box-shadow: none;
+    }
+    .center-bar .mic{
+        background-color: white;
+        margin: 0;
+    }
+    .center-bar{
+        margin: 0;
+    }
+    .video-create-icon,.notification-icon{
+        margin: 0;
+    }
+    .profile{
+        margin-left: 10px;
+    }
+    .hidden-content{
+        display: none;
+    }
+    .menu{
+        margin-left: -23px;
+    }
+    
+}
+@media(width>=638px) and (width<=719px){
+    .main-videos{
+        grid-template-columns: 1fr 1fr;
+        padding-left: 20px;
+        padding-right: 25px;
+        
+    }
+    .main{
+        padding-left: 0px;
+        padding-right: 0px
+    }
+    .sidebars{
+        display: none;
+    }
+    .Container{ 
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(width>=719px) and (width<=1000px){
+    .sidebars{
+        display: none;
+    }
+    .main{
+        padding-left: 80px;
+        padding-right: 0px
+    }
+    .main-videos{
+        grid-template-columns: 1fr 1fr;
+        padding-left: 20px;
+        padding-right: 25px;
+        
+    }
+    .hidden-content{
+        display: inline;
+        position: fixed;
+        top: 70px;
+        width: 90px;
+        padding-left: 0px;
+        padding-top: 0px;
+        overflow-y: scroll;
+        font-weight: 100;
+        margin-top:-10px;
+    }
+    .sidebar-1{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 0px;
+       margin-bottom: 0px;
+       border-radius: 8px;
+       cursor: pointer;
+       height: 70px;
+       width: 65px;
+       padding:10px 15px;
+       margin-left: 5px;
+    }
+        
+    
+    .sidebar-1 .image{
+        width: 18px;
+    }
+    .sidebar-1:hover{
+        background-color: rgb(232, 229, 229);
+    }
+    .sidebar-1 .image{
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+    .sidebar-1 .subscription-icon{
+        width: 20px;
+        margin: 4px 0px;
+    }
+    .sidebar-1 .home-text,.shorts-text,.subscription-text,.your-channel-text{
+        font-size: 10px;
+        letter-spacing: 0px;
+        font-weight: 100;
+        margin: 0px;
+        
+    }
+    .your-channel{
+        width: 22px;
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+
+}
+@media(width>=1000px) and (width<=1193px){
+    .sidebars{
+        display: none;
+    }
+    .main{
+        padding-left: 80px;
+        padding-right: 0px
+    }
+    .hidden-content{
+        display: inline;
+        position: fixed;
+        top: 70px;
+        width: 90px;
+        padding-left: 0px;
+        padding-top: 0px;
+        overflow-y: scroll;
+        font-weight: 100;
+        margin-top:-10px;
+    }
+    .sidebar-1{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 0px;
+       margin-bottom: 0px;
+       border-radius: 8px;
+       cursor: pointer;
+       height: 70px;
+       width: 65px;
+       padding:10px 15px;
+       margin-left: 5px;
+    }
+        
+    
+    .sidebar-1 .image{
+        width: 18px;
+    }
+    .sidebar-1:hover{
+        background-color: rgb(232, 229, 229);
+    }
+    .sidebar-1 .image{
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+    .sidebar-1 .subscription-icon{
+        width: 20px;
+        margin: 4px 0px;
+    }
+    .sidebar-1 .home-text,.shorts-text,.subscription-text,.your-channel-text{
+        font-size: 10px;
+        letter-spacing: 0px;
+        font-weight: 100;
+        margin: 0px;
+        
+    }
+    .your-channel{
+        width: 22px;
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+    .main-videos{
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 20px;
+        padding-right: 25px;
+        
+    }
+}
+@media(width>=1193px) and (width<=2040px){
+    .main-videos{
+        grid-template-columns: repeat(4,1fr);
+        padding-left: 20px;
+        padding-right: 25px;  
+    }
+}
+
+
+

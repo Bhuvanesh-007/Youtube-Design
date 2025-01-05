@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-left: 230px;
+    padding-right: 24px;
+}
+.sidebar:hover{
+    background-color: rgb(232, 229, 229);
+}
+body {
+    font-family: Roboto, Arial;
+    margin: 0;  
+  }
+
+  .main-videos a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
